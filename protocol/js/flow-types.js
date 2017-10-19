@@ -2842,6 +2842,7 @@ export type AnnotatedMemberInfo = {
   role: TeamRole,
   implicit?: ?ImplicitRole,
   needsPUK: boolean,
+  memberCount: int,
 }
 
 export type AnnotatedTeamInvite = {
